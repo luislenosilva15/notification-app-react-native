@@ -2008,14 +2008,14 @@
     prompts "^2.4.2"
     semver "^7.5.2"
 
-"@react-native-firebase/app@^22.10.0":
+"@react-native-firebase/app@^21.10.0":
   version "21.10.0"
   resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-21.10.0.tgz#b572cdaa6d6301e1afacf70d91160d7ebc7275a7"
   integrity sha512-FFZ5B1wsRRFRLoxLZ4247RyNC85262OHl5ENqcXmNzNqGq9iNXVOUSNhFZZOwhJauKZjSDzr/7nMPJjK3LkGjQ==
   dependencies:
     firebase "11.3.0"
 
-"@react-native-firebase/messaging@^22.10.0":
+"@react-native-firebase/messaging@^21.10.0":
   version "21.10.0"
   resolved "https://registry.yarnpkg.com/@react-native-firebase/messaging/-/messaging-21.10.0.tgz#a7808e959491bd432aa329dcfab2f47c17e11d9c"
   integrity sha512-vx3Ebk1zMOvo678vkyOY9Qf6GtiaWpQcbzW6bTw+RMODllFwHt0kj5SsDt4aeVSNlA6YC+zXURCzoqUxNEbE3Q==

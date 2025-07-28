@@ -5,6 +5,12 @@ const notificationRequestUserPermission = async () => {
   await PermissionsAndroid.request(
     PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS,
   );
+
+  const messaging = getMessaging();
+
+  const token = await messaging.getToken();
+
+  console.log({token});
 };
 
 const notificationOpenedApp = () => {

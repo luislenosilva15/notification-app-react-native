@@ -1,21 +1,9 @@
-import React, {useEffect} from 'react';
-import {Text, View} from 'react-native';
-import {
-  notificationOpenedApp,
-  notificationRequestUserPermission,
-} from './src/notification/firebase';
+import * as React from 'react';
 
-function App(): React.JSX.Element {
-  useEffect(() => {
-    notificationRequestUserPermission();
-    console.log(notificationOpenedApp());
-  }, []);
+import Home from './app/screens/Home';
 
-  return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text style={{color: 'white'}}>Teste</Text>
-    </View>
-  );
-}
+const App = () => {
+  return <Home />;
+};
 
 export default App;
